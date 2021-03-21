@@ -73,8 +73,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
     amount,
   }: UpdateProductAmount) => {
     try {
-      console.log(amount);
-
       if (amount < 1) {
         return;
       }
